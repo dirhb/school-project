@@ -1,0 +1,121 @@
+﻿body {
+}
+* {
+    margin: auto;
+    padding: 0;
+}
+.wrapper {
+    border: 1px solid red;
+    width: 1778px;
+    height: 1000px;
+    background-image: url('images/backgroundsaveanimals.png');
+}
+.logoimage img{
+    width: 170px;
+    height: 80px;
+    margin-left: 77px;
+    margin-top: -25px;
+}
+.navbar {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-top: 75px;
+    margin-right: 140px;  
+    gap: 20px;
+    justify-content: space-between;
+    width: 711px;
+    height: 41px;
+    background-color: #fff;
+}
+.navbar a{
+    color: #000000;
+    text-decoration: none;
+}
+.navbar a:hover{
+    background-color: #000000;
+    color: #e1d010;
+}
+.Home {
+    width: 57px;
+    height: 16px;
+    color: #e1d010;
+    font-family: Monts
+}
+.Home:hover{
+    background-color: #000000;
+    color: #e1d010;
+    cursor: pointer;
+}
+.About {
+    width: 58px;
+    height: 14px;
+    color: #000000;
+    font-family: Monts
+
+}
+
+.Pictures {
+    width: 75px;
+    color: #000000;
+    height: 14px;
+    font-family: Monts
+}
+
+.Form {
+    color: #000000;
+    width: 57px;
+    height: 16px;
+    font-family: Monts
+}
+.earth {
+    margin-top: 143px;
+    color: #fff;
+    margin-left: 75px;
+    width: 495px;
+    height: 41px;
+    font-size: 51px;
+    font-family: Monts
+}
+.saveanimals {
+    margin-top: 18px;
+    width: 692px;
+    height: 65px;
+    margin-left: 75px;
+    font-size: 76px;
+    font-weight: 900;
+    color: #3a3a3a;
+    font-family: Monts
+}
+.history {
+    margin-top: 19px;
+    margin-left: 75px;
+    color: #fff;
+    font-size: 38px;
+    font-family: Monts
+}
+.paragraph {
+    margin-top: 104px;
+    margin-left: 75px;
+    color: #3a3a3a;
+    font-family: Monts
+}
+.wild{
+    margin-top: 52px;
+    margin-left: 75px;  
+    font-size: 45px;
+    font-family: Monts
+    
+}
+.text {
+    Z-index: 1;
+    position: relative;
+}
+@font-face {
+    font-family: 'Monts';
+    src: url('fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
+}
+.liney{
+    position: absolute;
+    top: 30px;
+}
